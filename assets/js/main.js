@@ -97,17 +97,17 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(`.home__data, .home__img, 
-           .decoration__data,
-           .accessory__content,
+           .disease__data,
+           .features__content,
            .footer__content`, {
     origin: 'top',
     interval: 200,
 })
 
-sr.reveal(`.share__img, .send__content`, {
-    origin: 'left'
+sr.reveal(`.waitlist__img, .about__content`, {
+    origin: 'right'
 })
 
-sr.reveal(`.share__data, .send__img`, {
-    origin: 'right'
+sr.reveal(`.waitlist__data, .about__img`, {
+    origin: 'left'
 })
