@@ -268,9 +268,13 @@ img{
   
 }
 
+
+
 .card img{
-  width: 400px;
+  width: 350px;
 }
+
+
 
 .home__container{
   row-gap: .5rem;
@@ -279,6 +283,7 @@ img{
 .home__img{
   width: 280px;
   justify-self: center;
+  left: 50%;
 }
 
 .home__img img {
@@ -390,13 +395,12 @@ h2{
   margin-bottom: 2.5rem;
   font-size: 1.1rem;
   font-weight: 500;
-  text-align: left;
 }
 
 .about__img{
   width: 280px;
   justify-self: center;
-  order: -1;
+  order: 0;
 }
 
 /*========== disease ==========*/
@@ -417,7 +421,7 @@ h2{
 }
 
 .disease__img{
-  width: 140px;
+  width: 160px;
 }
 
 .disease__title{
@@ -457,7 +461,7 @@ h2{
 }
 
 .features__title{
-  font-size: 1.2rem;
+  font-size: var(--normal-font-size);
 }
 
 .features__category{
@@ -518,15 +522,6 @@ h2{
 .waitlist__img{
   width: 280px;
   justify-self: center;
-}
-
-.checkout{
-  padding: .8rem 1.2rem;
-  background-color: #fff;
-  color: #3c52f7;
-  border-radius: .5rem;
-  font-size: 1.2rem;
-  font-weight: 600;
 }
 
 

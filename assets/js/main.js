@@ -96,7 +96,7 @@ const sr = ScrollReveal({
     reset: true,
 });
 
-sr.reveal(`.home__data, .home__img, 
+sr.reveal(`.home__data, .home__img, .cardhome, 
            .disease__data,
            .features__content,
            .footer__content`, {
@@ -104,10 +104,10 @@ sr.reveal(`.home__data, .home__img,
     interval: 200,
 })
 
-sr.reveal(`.waitlist__img, .about__content`, {
+sr.reveal(`.waitlist__img, .about__data`, {
     origin: 'right'
 })
 
-sr.reveal(`.waitlist__data, .about__img`, {
+sr.reveal(`.waitlist__content, .about__img`, {
     origin: 'left'
 })
