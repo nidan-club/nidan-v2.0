@@ -360,6 +360,10 @@ h2{
   text-align: left;
 }
 
+.aboutlist {
+  list-style-type: square;
+}
+
 .about__img{
   width: 280px;
   justify-self: center;
