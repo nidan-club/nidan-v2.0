@@ -283,6 +283,8 @@ img{
 
 .home__img img {
   animation: floaty 1s infinite alternate;
+  pointer-events: none;
+  user-select: none;
 }
 
 .home__shadow {
@@ -418,6 +420,8 @@ h2{
 
 .disease__img{
   width: 140px;
+  pointer-events: none;
+  user-select: none;
 }
 
 .disease__title{
