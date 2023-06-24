@@ -90,24 +90,24 @@ themeButton.addEventListener('click', () => {
 })
 
 /*==================== SCROLL REVEAL ANIMATION ====================*/
-const sr = ScrollReveal({
-    distance: '30px',
-    duration: 1800,
-    reset: true,
-});
+// const sr = ScrollReveal({
+//     distance: '30px',
+//     duration: 1800,
+//     reset: true,
+// });
 
-sr.reveal(`.home__data, .home__img, .cardhome, 
-           .disease__data,
-           .features__content,
-           .footer__content`, {
-    origin: 'top',
-    interval: 200,
-})
+// sr.reveal(`.home__data, .home__img, .cardhome, 
+//            .disease__data,
+//            .features__content,
+//            .footer__content`, {
+//     origin: 'top',
+//     interval: 200,
+// })
 
-sr.reveal(`.waitlist__img, .about__data`, {
-    origin: 'right'
-})
+// sr.reveal(`.waitlist__img, .about__data`, {
+//     origin: 'right'
+// })
 
-sr.reveal(`.waitlist__content, .about__img`, {
-    origin: 'left'
-})
+// sr.reveal(`.waitlist__content, .about__img`, {
+//     origin: 'left'
+// })

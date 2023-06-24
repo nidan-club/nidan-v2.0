@@ -90,24 +90,24 @@ themeButton.addEventListener('click', () => {
 })
 
 /*==================== SCROLL REVEAL ANIMATION ====================*/
-const sr = ScrollReveal({
-    distance: '30px',
-    duration: 1800,
-    reset: true,
-});
+// const sr = ScrollReveal({
+//     distance: '30px',
+//     duration: 1800,
+//     reset: true,
+// });
 
-sr.reveal(`.home__data, .home__img, 
-           .decoration__data,
-           .features__content,
-           .footer__content`, {
-    origin: 'top',
-    interval: 200,
-})
+// sr.reveal(`.home__data, .home__img, 
+//            .decoration__data,
+//            .features__content,
+//            .footer__content`, {
+//     origin: 'top',
+//     interval: 200,
+// })
 
-sr.reveal(`.about__img, .waitlist__content`, {
-    origin: 'left'
-})
+// sr.reveal(`.about__img, .waitlist__content`, {
+//     origin: 'left'
+// })
 
-sr.reveal(`.about__data, .waitlist__img`, {
-    origin: 'right'
-})
+// sr.reveal(`.about__data, .waitlist__img`, {
+//     origin: 'right'
+// })
